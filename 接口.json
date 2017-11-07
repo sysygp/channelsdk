@@ -1,0 +1,56 @@
+{
+    "sign": "", 
+    "reqinfo": {
+    	"userid":"",
+    	"token":""
+    }
+}
+
+
+{
+	"code":"//1：成功，正常解析包体；其他：失败（非1时为错误原因）",
+    "sign": "", 
+    "resinfo": {
+    	"giftslist":[
+            {
+                "giftid":"//礼品id",
+                "giftname":"//礼品名称",
+                "ctime":"//兑换时间"
+            },
+            {
+                "giftid":"//礼品id",
+                "giftname":"//礼品名称",
+                "ctime":"//兑换时间"
+            }
+        ]
+    }
+}
+
+
+
+
+
+
+{
+	"code":"//1：成功，正常解析包体；其他：失败",
+    "sign": "", 
+    "resinfo": {
+    	"userid":"",
+    	"invitationcode":"//邀请码",
+    	"qrcode":"//二维码",
+    	"name":"",
+    	"sex":"男/女，直接中文",
+    	"age":"",
+    	"phone":"",
+    	"wxopenid":"",
+    	"score":"//积分",
+    	"credit":"//信用值",
+    	"bankname":"//开户行",
+    	"bankuser":"//开户名",
+    	"bankcity":"//开户省市",
+    	"recerveName":"//收件人",
+    	"receriveAddr":"//收件地址",
+    	"recervicePhone":"//收件人手机号",
+    	"shareurl":"//分享连接"
+    }
+}
